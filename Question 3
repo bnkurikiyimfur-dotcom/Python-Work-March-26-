@@ -1,0 +1,6 @@
+mylist = "school"
+
+if "a" in mylist:
+    print("Yes")
+else:
+    print("No")
