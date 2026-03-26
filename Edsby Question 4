@@ -1,0 +1,9 @@
+def find_all_indices(arr, target):
+    indices = []
+    for i in range(len(arr)):
+        if arr[i] == target:
+            indices.append(i)
+    return indices
+
+# Example
+print(find_all_indices([5, 3, 5, 2, 5], 5))
