@@ -1,0 +1,4 @@
+mylist = ["banana", "orange", "apple", "grape"]
+
+if "apple" in mylist:
+    print("Yes")
