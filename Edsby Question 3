@@ -1,0 +1,8 @@
+def name_search(names, target_name):
+    for name in names:
+        if name == target_name:
+            return "Found"
+    return "Not Found"
+
+students = ["Noel", "Boris", "Alderic"]
+print(name_search(students, "Boris")) 
